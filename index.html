@@ -489,7 +489,7 @@
       <div class="about-grid reveal">
         <div class="about-avatar-wrap">
           <div class="about-avatar">
-            <img src="./profile.png" alt="">
+            <img src="c:\Users\Prince\Contacts\Desktop\UHIRIWE\my portifolio\PRINCE.jpg" alt="">
           </div>
         </div>
         <div class="about-text">
@@ -577,6 +577,7 @@
 
     <!-- CONTACT -->
     <section id="contact">
+      <form name="contact" method="post" netlify></form>
       <h2 class="section-title">Get In <span class="title-accent">Touch</span></h2>
       <p class="section-sub">Have a project in mind? Let's talk! 🎉</p>
       <div class="contact-wrap reveal">
@@ -629,21 +630,23 @@
         <div>
           <div class="contact-form" id="contactForm">
             <div class="form-group">
+                    <form name="contact" method="post" netlify>
               <label for="name">Your Name</label>
-              <input type="text" id="name" placeholder="e.g. John Doe" />
+              <input type="text" id="name" placeholder="fully_name" name="fully_name" />
             </div>
             <div class="form-group">
               <label for="email">Your Email</label>
-              <input type="email" id="email" placeholder="your@email.com" />
+              <input type="email" id="email" placeholder="your@email.com" name="email"/>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" placeholder="Tell me about your project or idea..."></textarea>
+              <textarea id="message" placeholder="Tell me about your project or idea..." name="name"></textarea>
             </div>
             <button class="form-btn" id="sendBtn" onclick="handleSend()">Send Message 🚀</button>
             <div class="form-success" id="formSuccess">
               ✅ Message sent! I'll get back to you soon 🎉
             </div>
+            </form>
           </div>
         </div>
 
